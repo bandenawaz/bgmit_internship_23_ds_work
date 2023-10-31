@@ -62,3 +62,19 @@ f += 2
 print(f) 
 
 #task: perform -=,*=,/=,%=,**=,//=
+
+'''
+Membership operator:
+        This operator is used to check whether a variable or value exists in
+        the sequence or data structure or not
+'''
+#in: This operator returns True if the variable or value exists in the sequence
+#else: False
+new_stock = ['Infy','CGMNI','MI','OP','HP']
+#lets check whether CGMNI exists in the list
+print('CGMNI' in new_stock)
+
+#not in: This operator returns True if the variable or value does not exists in the
+        #sequence or data structure
+print('MSFT' not in new_stock)
+
